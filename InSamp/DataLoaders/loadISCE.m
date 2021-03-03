@@ -86,7 +86,7 @@ elseif(regexp(filename,'crop'))
 else
     if regexp(filename,'merged')
         
-        lambda = '0.055';
+        lambda = '0.055465763';
         [nx, ny] = loadISCEinfo([pathname(1:end-7) '/isce.log'],'isce.mroipac.filter - DEBUG - width','isce.mroipac.filter - DEBUG - length');
         
     else
